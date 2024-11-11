@@ -37,10 +37,10 @@
                 <div class="footer_section footer_links">
                   <div class="footer_links_container">
                     <ul>
-                      <li><a href="<?php echo home_uri(); ?>/category/news">ニュース</a></li>
-                      <li><a href="<?php echo home_uri(); ?>/category/event">イベント</a></li>
-                      <li><a href="<?php echo home_uri(); ?>/course">コース</a></li>
-                      <li><a href="<?php echo home_uri(); ?>about_us">侍大学について</a></li>
+                      <li><a href="<?php echo home_url(); ?>/category/news">ニュース</a></li>
+                      <li><a href="<?php echo home_url(); ?>/category/event">イベント</a></li>
+                      <li><a href="<?php echo home_url(); ?>/course">コース</a></li>
+                      <li><a href="<?php echo home_url(); ?>about_us">侍大学について</a></li>
                     </ul>
                   </div>
                 </div>

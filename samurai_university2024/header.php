@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/bootstrap4/bootstrap.min.css" />
   <link href="<?php echo get_template_directory_uri(); ?>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link rel="<?php echo get_template_directory_uri(); ?>/stylesheet" type="text/css" href="styles/main_styles.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/main_styles.css" />
   <?php wp_head(); ?>
 </head>
 
@@ -35,25 +35,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav flex-row ml-md-auto d-md-flex main_nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_uri(); ?>/category/news">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/category/news">
                     NEWS
                     <p>ニュース</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_uri(); ?>/category/event">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/category/event">
                     EVENT
                     <p>イベント</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_uri(); ?>/course">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/course">
                     COURSES
                     <p>コース</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_uri(); ?>/about_us">
+                  <a class="nav-link" href="<?php echo home_url(); ?>/about_us">
                     ABOUT US
                     <p>侍大学について</p>
                   </a>
